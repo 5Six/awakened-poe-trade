@@ -214,6 +214,7 @@ export function createFilters (
 
   const forAdornedJewel = (
     item.rarity === ItemRarity.Magic &&
+    // Uncomment for corrupted jewels only
     // item.isCorrupted &&
     (item.category === ItemCategory.Jewel || item.category === ItemCategory.AbyssJewel))
 
